@@ -1,5 +1,7 @@
 <?php
 $emoticons = array(
+// Emoticons
+
 '(icon)' => '1F601',	// 😁 grinning face with smiling eyes
 '(icon)' => '1F602',	// 😂 face with tears of joy
 '(icon)' => '1F603',	// 😃 smiling face with open mouth
@@ -52,78 +54,86 @@ $emoticons = array(
 '(icon)' => '1F647',	// 🙇 person bowing deeply
 '(icon)' => '1F648',	// 🙈 see-no-evil monkey
 '(icon)' => '1F649',	// 🙉 hear-no-evil monkey
-'(icon)' => '1F64A',	// 🙊 speak-no-evil monkey
-'(icon)' => '1F64B',	// 🙋 happy person raising one hand
-'(icon)' => '1F64C',	// 🙌 person raising both hands in celebration
-'(icon)' => '1F64D',	// 🙍 person frowning
-'(icon)' => '1F64E',	// 🙎 person with pouting face
-'(icon)' => '1F64F',	// 🙏 person with folded hands
-'(icon)' => '2702',   // ✂ black scissors
-'(icon)' => '2705',	// ✅ 'ite heavy check mark
-✈ '(icon)' => '2708',	//E2\x9C\x88	airplane
-✉ '(icon)' => '2709',	//E2\x9C\x89	envelope
-✊ '(icon)' => '270A',	//E2\x9C\x8A	raised fist
-✋ '(icon)' => '270B',	//E2\x9C\x8B	raised hand
-✌ '(icon)' => '270C',	//E2\x9C\x8C	victory hand
-✏ '(icon)' => '270F',	//E2\x9C\x8F	pencil
-✒ '(icon)' => '2712',	//E2\x9C\x92	black nib
-✔ '(icon)' => '2714',	//E2\x9C\x94	heavy check mark
-✖'(icon)' => '2716',	//E2\x9C\x96	heavy multiplication x
-✨ '(icon)' => '2728',	//E2\x9C\xA8	sparkles
-✳ '(icon)' => '2733',	//E2\x9C\xB3	eight spoked asterisk
-✴ '(icon)' => '2734',	//E2\x9C\xB4	eight pointed black star
-❄ '(icon)' => '2744',	//E2\x9D\x84	snowflake
-❇ '(icon)' => '2747',	//E2\x9D\x87	sparkle
-❌ '(icon)' => '274C',	//E2\x9D\x8C	cross mark
-❎ '(icon)' => '274E',	//E2\x9D\x8E	negative squared cross mark
-❓ '(icon)' => '2753',	//E2\x9D\x93	black question mark ornament
-❔ '(icon)' => '2754',	//E2\x9D\x94	white question mark ornament
-❕ '(icon)' => '2755',	//E2\x9D\x95	white exclamation mark ornament
-❗ '(icon)' => '2757',	//E2\x9D\x97	heavy exclamation mark symbol
-❤ '(icon)' => '2764',	//E2\x9D\xA4	heavy black heart
-➕ '(icon)' => '2795',	//E2\x9E\x95	heavy plus sign
-➖ '(icon)' => '2796',	//E2\x9E\x96	heavy minus sign
-➗ '(icon)' => '2797',	//E2\x9E\x97	heavy division sign
-➡ '(icon)' => '27A1',	//E2\x9E\xA1	black rightwards arrow
-➰ '(icon)' => '27B0',	//E2\x9E\xB0	curly loop
+'(icon)' => '1F64A',	// 🙊 	speak-no-evil monkey
+'(icon)' => '1F64B',	// 🙋 	happy person raising one hand
+'(icon)' => '1F64C',	// 🙌 	person raising both hands in celebration
+'(icon)' => '1F64D',	// 🙍 	person frowning
+'(icon)' => '1F64E',	// 🙎 	person with pouting face
+'(icon)' => '1F64F',	// 🙏 	person with folded hands
+
+
+// Dingbats
+
+'(icon)' => '2702',		// ✂ 	black scissors
+'(icon)' => '2705',		// ✅ 	'ite heavy check mark
+'(icon)' => '2708',		// ✈ 	airplane
+'(icon)' => '2709',		// ✉ 	envelope
+'(icon)' => '270A',		// ✊ 	raised fist
+'(icon)' => '270B',		// ✋ 	raised hand
+'(icon)' => '270C',		//✌  	victory hand
+'(icon)' => '270F',		// ✏ 	pencil
+'(icon)' => '2712',		// ✒ 	black nib
+'(icon)' => '2714',		// ✔ 	heavy check mark
+'(icon)' => '2716',		// ✖ 	heavy multiplication x
+'(icon)' => '2728',		// ✨ 	sparkles
+'(icon)' => '2733',		// ✳ 	eight spoked asterisk
+'(icon)' => '2734',		// ✴ 	eight pointed black star
+'(icon)' => '2744',		// ❄ 	snowflake
+'(icon)' => '2747',		// ❇ 	sparkle
+'(icon)' => '274C',		// ❌ 	cross mark
+'(icon)' => '274E',		// ❎ 	negative squared cross mark
+'(icon)' => '2753',		// ❓ 	black question mark ornament
+'(icon)' => '2754',		// ❔ 	white question mark ornament
+'(icon)' => '2755',		// ❕ 	white exclamation mark ornament
+'(icon)' => '2757',		// ❗ 	heavy exclamation mark symbol
+'(icon)' => '2764',		// ❤ 	heavy black heart
+'(icon)' => '2795',		// ➕ 	heavy plus sign
+'(icon)' => '2796',		// ➖ 	heavy minus sign
+'(icon)' => '2797',		// ➗ 	heavy division sign
+'(icon)' => '27A1',		// ➡ 	black rightwards arrow
+'(icon)' => '27B0',		// ➰ 	curly loop
+
 
 // Transport and map symbols
-🚀 '(icon)' => '1F680',	//F0\x9F\x9A\x80	rocket
-🚃 '(icon)' => '1F683',	//F0\x9F\x9A\x83	railway car
-🚄 '(icon)' => '1F684',	//F0\x9F\x9A\x84	high-speed train
-🚅 '(icon)' => '1F685',	//F0\x9F\x9A\x85	high-speed train with bullet nose
-🚇 '(icon)' => '1F687',	//F0\x9F\x9A\x87	metro
-🚉 '(icon)' => '1F689',	//F0\x9F\x9A\x89	station
-🚌 '(icon)' => '1F68C',	//F0\x9F\x9A\x8C	bus
-🚏 '(icon)' => '1F68F',	//F0\x9F\x9A\x8F	bus stop
-🚑 '(icon)' => '1F691',	//F0\x9F\x9A\x91	ambulance
-🚒 '(icon)' => '1F692',	//F0\x9F\x9A\x92	fire engine
-🚓 '(icon)' => '1F693',	//F0\x9F\x9A\x93	police car
-🚕 '(icon)' => '1F695',	//F0\x9F\x9A\x95	taxi
-🚗 '(icon)' => '1F697',	//F0\x9F\x9A\x97	automobile
-🚙 '(icon)' => '1F699',	//F0\x9F\x9A\x99	recreational vehicle
-🚚 '(icon)' => '1F69A',	//F0\x9F\x9A\x9A	delivery truck
-🚢 '(icon)' => '1F6A2',	//F0\x9F\x9A\xA2	ship
-🚤 '(icon)' => '1F6A4',	//F0\x9F\x9A\xA4	speedboat
-🚥 '(icon)' => '1F6A5',	//F0\x9F\x9A\xA5	horizontal traffic light
-🚧 '(icon)' => '1F6A7',	//F0\x9F\x9A\xA7	construction sign
-🚨 '(icon)' => '1F6A8',	//F0\x9F\x9A\xA8	police cars revolving light
-🚩 '(icon)' => '1F6A9',	//F0\x9F\x9A\xA9	triangular flag on post
-🚪 '(icon)' => '1F6AA',	//F0\x9F\x9A\xAA	door
-🚫 '(icon)' => '1F6AB',	//F0\x9F\x9A\xAB	no entry sign
-🚬 '(icon)' => '1F6AC',	//F0\x9F\x9A\xAC	smoking symbol
-🚭 '(icon)' => '1F6AD',	//F0\x9F\x9A\xAD	no smoking symbol
-🚲 '(icon)' => '1F6B2',	//F0\x9F\x9A\xB2	bicycle
-🚶 '(icon)' => '1F6B6',	//F0\x9F\x9A\xB6	pedestrian
-🚹 '(icon)' => '1F6B9',	//F0\x9F\x9A\xB9	mens symbol
-🚺 '(icon)' => '1F6BA',	//F0\x9F\x9A\xBA	womens symbol
-🚻 '(icon)' => '1F6BB',	//F0\x9F\x9A\xBB	restroom
-🚼 '(icon)' => '1F6BC',	//F0\x9F\x9A\xBC	baby symbol
-🚽 '(icon)' => '1F6BD',	//F0\x9F\x9A\xBD	toilet
-🚾 '(icon)' => '1F6BE',	//F0\x9F\x9A\xBE	water closet
-🛀 '(icon)' => '1F6C0',	//F0\x9F\x9B\x80	bath
 
-// Enclosed characters ( 24C2 - 1F251 )
+🚀 '(icon)' => '1F680',	//	rocket
+🚃 '(icon)' => '1F683',	//	railway car
+🚄 '(icon)' => '1F684',	//	high-speed train
+🚅 '(icon)' => '1F685',	//	high-speed train with bullet nose
+🚇 '(icon)' => '1F687',	//	metro
+🚉 '(icon)' => '1F689',	//	station
+🚌 '(icon)' => '1F68C',	//	bus
+🚏 '(icon)' => '1F68F',	//	bus stop
+🚑 '(icon)' => '1F691',	//	ambulance
+🚒 '(icon)' => '1F692',	//	fire engine
+🚓 '(icon)' => '1F693',	//	police car
+🚕 '(icon)' => '1F695',	//	taxi
+🚗 '(icon)' => '1F697',	//	automobile
+🚙 '(icon)' => '1F699',	//	recreational vehicle
+🚚 '(icon)' => '1F69A',	//	delivery truck
+🚢 '(icon)' => '1F6A2',	//	ship
+🚤 '(icon)' => '1F6A4',	//	speedboat
+🚥 '(icon)' => '1F6A5',	//	horizontal traffic light
+🚧 '(icon)' => '1F6A7',	//	construction sign
+🚨 '(icon)' => '1F6A8',	//	police cars revolving light
+🚩 '(icon)' => '1F6A9',	//	triangular flag on post
+🚪 '(icon)' => '1F6AA',	//	door
+🚫 '(icon)' => '1F6AB',	//	no entry sign
+🚬 '(icon)' => '1F6AC',	//	smoking symbol
+🚭 '(icon)' => '1F6AD',	//	no smoking symbol
+🚲 '(icon)' => '1F6B2',	//	bicycle
+🚶 '(icon)' => '1F6B6',	//	pedestrian
+🚹 '(icon)' => '1F6B9',	//	mens symbol
+🚺 '(icon)' => '1F6BA',	//	womens symbol
+🚻 '(icon)' => '1F6BB',	//	restroom
+🚼 '(icon)' => '1F6BC',	//	baby symbol
+🚽 '(icon)' => '1F6BD',	//	toilet
+🚾 '(icon)' => '1F6BE',	//	water closet
+🛀 '(icon)' => '1F6C0',	//	bath
+
+
+// Enclosed characters
+
 Ⓜ '(icon)' => '24C2',	//E2\x93\x82	circled latin capital letter m
 🅰 '(icon)' => '1F170',	//F0\x9F\x85\xB0	negative squared latin capital letter a
 🅱 '(icon)' => '1F171',	//F0\x9F\x85\xB1	negative squared latin capital letter b
@@ -166,7 +176,9 @@ $emoticons = array(
 🉐 '(icon)' => '1F250',	//F0\x9F\x89\x90	circled ideograph advantage
 🉑 '(icon)' => '1F251',	//F0\x9F\x89\x91	circled ideograph accept
 
+
 // Uncategorized
+
 © '(icon)' => '00A9',	// copyright sign
 ® '(icon)' => '00AE',	//registered sign
 ‼ '(icon)' => '203C',	// double exclamation mark
@@ -436,7 +448,7 @@ $emoticons = array(
 🏮 '(icon)' => '1F3EE',	//F0\x9F\x8F\xAE	izakaya lantern
 🏯 '(icon)' => '1F3EF',	//F0\x9F\x8F\xAF	japanese castle
 🏰 '(icon)' => '1F3F0',	//F0\x9F\x8F\xB0	european castle
-🐌 '(icon)' => '1F40C',	//F0\x9F\x90\x8C	snail
+'(sn)' => '1F40C',	// 🐌 snail
 🐍 '(icon)' => '1F40D',	//F0\x9F\x90\x8D	snake
 🐎 '(icon)' => '1F40E',	//F0\x9F\x90\x8E	horse
 🐑 '(icon)' => '1F411',	//F0\x9F\x90\x91	sheep
@@ -489,7 +501,7 @@ $emoticons = array(
 👆 '(icon)' => '1F446',	//F0\x9F\x91\x86	white up pointing backhand index
 👇 '(icon)' => '1F447',	//F0\x9F\x91\x87	white down pointing backhand index
 👈 '(icon)' => '1F448',	//F0\x9F\x91\x88	white left pointing backhand index
-👉 '(icon)' => '1F449',	//F0\x9F\x91\x89	white right pointing backhand index
+👉 '(icon)' => '1F449',	//F0\x9F\x91\x89		white right pointing backhand index
 👊 '(icon)' => '1F44A',	//F0\x9F\x91\x8A	fisted hand sign
 👋 '(icon)' => '1F44B',	//F0\x9F\x91\x8B	waving hand sign
 👌 '(icon)' => '1F44C',	//F0\x9F\x91\x8C	ok hand sign
@@ -641,12 +653,12 @@ $emoticons = array(
 📤 '(icon)' => '1F4E4',	//F0\x9F\x93\xA4	outbox tray
 📥 '(icon)' => '1F4E5',	//F0\x9F\x93\xA5	inbox tray
 📦 '(icon)' => '1F4E6',	//F0\x9F\x93\xA6	package
-📧 '(icon)' => '1F4E7',	//F0\x9F\x93\xA7	e-mail symbol
-📨 '(icon)' => '1F4E8',	//F0\x9F\x93\xA8	incoming envelope
-📩 '(icon)' => '1F4E9',	//F0\x9F\x93\xA9	envelope with downwards arrow above
-📪 '(icon)' => '1F4EA',	//F0\x9F\x93\xAA	closed mailbox with lowered flag
-📫 '(icon)' => '1F4EB',	//F0\x9F\x93\xAB	closed mailbox with raised flag
-📮 '(icon)' => '1F4EE',	//F0\x9F\x93\xAE	postbox
+📧 '(icon)' => '1F4E7',	//	e-mail symbol
+📨 '(icon)' => '1F4E8',	//	incoming envelope
+📩 '(icon)' => '1F4E9',	// envelope with downwards arrow above
+📪 '(icon)' => '1F4EA',	// closed mailbox with lowered flag
+📫 '(icon)' => '1F4EB',	//	closed mailbox with raised flag
+📮 '(icon)' => '1F4EE',	//	postbox
 📰 '(icon)' => '1F4F0',	//F0\x9F\x93\xB0	newspaper
 📱 '(icon)' => '1F4F1',	//F0\x9F\x93\xB1	mobile phone
 📲 '(icon)' => '1F4F2',	//F0\x9F\x93\xB2	mobile phone with rightwards arrow at left
@@ -726,27 +738,31 @@ $emoticons = array(
 🗾 '(icon)' => '1F5FE',	//F0\x9F\x97\xBE	silhouette of japan
 🗿 '(icon)' => '1F5FF',	//F0\x9F\x97\xBF	moyai
 
-// Additional emoticons ( 1F600 - 1F636 )
-😀 '(icon)' => '1F600',	//F0\x9F\x98\x80	grinning face
-😇 '(icon)' => '1F607',	//F0\x9F\x98\x87	smiling face with halo
-😈 '(icon)' => '1F608',	//F0\x9F\x98\x88	smiling face with horns
-😎 '(icon)' => '1F60E',	//F0\x9F\x98\x8E	smiling face with sunglasses
-😐 '(icon)' => '1F610',	//F0\x9F\x98\x90	neutral face
-😑 '(icon)' => '1F611',	//F0\x9F\x98\x91	expressionless face
-😕 '(icon)' => '1F615',	//F0\x9F\x98\x95	confused face
-😗 '(icon)' => '1F617',	//F0\x9F\x98\x97	kissing face
-😙 '(icon)' => '1F619',	//F0\x9F\x98\x99	kissing face with smiling eyes
-😛 '(icon)' => '1F61B',	//F0\x9F\x98\x9B	face with stuck-out tongue
-😟 '(icon)' => '1F61F',	//F0\x9F\x98\x9F	worried face
-😦 '(icon)' => '1F626',	//F0\x9F\x98\xA6	frowning face with open mouth
-😧 '(icon)' => '1F627',	//F0\x9F\x98\xA7	anguished face
-😬 '(icon)' => '1F62C',	//F0\x9F\x98\xAC	grimacing face
-😮 '(icon)' => '1F62E',	//F0\x9F\x98\xAE	face with open mouth
-😯 '(icon)' => '1F62F',	//F0\x9F\x98\xAF	hushed face
-😴 '(icon)' => '1F634',	//F0\x9F\x98\xB4	sleeping face
-😶 '(icon)' => '1F636',	//F0\x9F\x98\xB6	face without mouth
+
+// Additional emoticons
+
+😀 '(icon)' => '1F600',	//	grinning face
+😇 '(icon)' => '1F607',	//	smiling face with halo
+😈 '(icon)' => '1F608',	//	smiling face with horns
+😎 '(icon)' => '1F60E',	//	smiling face with sunglasses
+😐 '(icon)' => '1F610',	//	neutral face
+😑 '(icon)' => '1F611',	//	expressionless face
+😕 '(icon)' => '1F615',	//	confused face
+😗 '(icon)' => '1F617',	//	kissing face
+😙 '(icon)' => '1F619',	//	kissing face with smiling eyes
+😛 '(icon)' => '1F61B',	//	face with stuck-out tongue
+😟 '(icon)' => '1F61F',	//	worried face
+😦 '(icon)' => '1F626',	//	frowning face with open mouth
+😧 '(icon)' => '1F627',	//	anguished face
+😬 '(icon)' => '1F62C',	//	grimacing face
+😮 '(icon)' => '1F62E',	//	face with open mouth
+😯 '(icon)' => '1F62F',	//	hushed face
+😴 '(icon)' => '1F634',	//	sleeping face
+😶 '(icon)' => '1F636',	//	face without mouth
+
 
 // Additional transport and map symbols
+
 🚁 '(icon)' => '1F681',	//F0\x9F\x9A\x81	helicopter
 🚂 '(icon)' => '1F682',	//F0\x9F\x9A\x82	steam locomotive
 🚆 '(icon)' => '1F686',	//F0\x9F\x9A\x86	train
@@ -785,6 +801,7 @@ $emoticons = array(
 
 
 // Other additional symbols
+
 🌍 '(icon)' => '1F30D',	//F0\x9F\x8C\x8D	earth globe europe-africa
 🌎 '(icon)' => '1F30E',	//F0\x9F\x8C\x8E	earth globe americas
 🌐 '(icon)' => '1F310',	//F0\x9F\x8C\x90	globe with meridians
@@ -830,30 +847,30 @@ $emoticons = array(
 💷 '(icon)' => '1F4B7',	//F0\x9F\x92\xB7	banknote with pound sign
 📬 '(icon)' => '1F4EC',	//F0\x9F\x93\xAC	open mailbox with raised flag
 📭 '(icon)' => '1F4ED',	//F0\x9F\x93\xAD	open mailbox with lowered flag
-📯 '(icon)' => '1F4EF',	//F0\x9F\x93\xAF	postal horn
-📵 '(icon)' => '1F4F5',	//F0\x9F\x93\xB5	no mobile phones
-🔀 '(icon)' => '1F500',	//F0\x9F\x94\x80	twisted rightwards arrows
-🔁 '(icon)' => '1F501',	//F0\x9F\x94\x81	clockwise rightwards and leftwards open circle arrows
-🔂 '(icon)' => '1F502',	//F0\x9F\x94\x82	clockwise rightwards and leftwards open circle arrows with circled one overlay
-🔄 '(icon)' => '1F504',	//F0\x9F\x94\x84	anticlockwise downwards and upwards open circle arrows
-🔅 '(icon)' => '1F505',	//F0\x9F\x94\x85	low brightness symbol
-🔆 '(icon)' => '1F506',	//F0\x9F\x94\x86	high brightness symbol
-🔇 '(icon)' => '1F507',	//F0\x9F\x94\x87	speaker with cancellation stroke
-🔉 '(icon)' => '1F509',	//F0\x9F\x94\x89	speaker with one sound wave
-🔕 '(icon)' => '1F515',	//F0\x9F\x94\x95	bell with cancellation stroke
-🔬 '(icon)' => '1F52C',	//F0\x9F\x94\xAC	microscope
-🔭 '(icon)' => '1F52D',	//F0\x9F\x94\xAD	telescope
-🕜 '(icon)' => '1F55C',	//F0\x9F\x95\x9C	clock face one-thirty
-🕝 '(icon)' => '1F55D',	//F0\x9F\x95\x9D	clock face two-thirty
-🕞 '(icon)' => '1F55E',	//F0\x9F\x95\x9E	clock face three-thirty
-🕟 '(icon)' => '1F55F',	//F0\x9F\x95\x9F	clock face four-thirty
-🕠 '(icon)' => '1F560',	//F0\x9F\x95\xA0	clock face five-thirty
-'(icon)' => '1F561',	// 🕡 clock face six-thirty
-'(icon)' => '1F562',	// 🕢 clock face seven-thirty
-'(icon)' => '1F563',	// 🕣 clock face eight-thirty
-'(icon)' => '1F564',	// 🕤 clock face nine-thirty
-'(icon)' => '1F565',	// 🕥 clock face ten-thirty
-'(icon)' => '1F566',  // 🕦 clock face eleven-thirty
-'(icon)' => '00000'   // 🕧 clock face ??
+📯 '(icon)' => '1F4EF',	//	postal horn
+📵 '(icon)' => '1F4F5',	//	no mobile phones
+🔀 '(icon)' => '1F500',	//	twisted rightwards arrows
+🔁 '(icon)' => '1F501',	//	clockwise rightwards and leftwards open circle arrows
+🔂 '(icon)' => '1F502',	//	clockwise rightwards and leftwards open circle arrows with circled one overlay
+🔄 '(icon)' => '1F504',	//	anticlockwise downwards and upwards open circle arrows
+🔅 '(icon)' => '1F505',	//	low brightness symbol
+🔆 '(icon)' => '1F506',	//	high brightness symbol
+🔇 '(icon)' => '1F507',	//	speaker with cancellation stroke
+🔉 '(icon)' => '1F509',	//	speaker with one sound wave
+🔕 '(icon)' => '1F515',	//	bell with cancellation stroke
+🔬 '(icon)' => '1F52C',	//	microscope
+🔭 '(icon)' => '1F52D',	//	telescope
+🕜 '(icon)' => '1F55C',	//	clock face one-thirty
+🕝 '(icon)' => '1F55D',	//	clock face two-thirty
+🕞 '(icon)' => '1F55E',	//	clock face three-thirty
+🕟 '(icon)' => '1F55F',	//	clock face four-thirty
+🕠 '(icon)' => '1F560',	//	clock face five-thirty
+'(icon)' => '1F561',	// 🕡 	clock face six-thirty
+'(icon)' => '1F562',	// 🕢 	clock face seven-thirty
+'(icon)' => '1F563',	// 🕣 	clock face eight-thirty
+'(icon)' => '1F564',	// 🕤 	clock face nine-thirty
+'(icon)' => '1F565',	// 🕥	clock face ten-thirty
+'(icon)' => '1F566',	// 🕦 	clock face eleven-thirty
+'(icon)' => '1F567'		// 🕧 	clock face twelve-thirty
 );
 ?>
