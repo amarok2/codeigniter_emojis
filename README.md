@@ -25,4 +25,4 @@ After that, you'll just have to parse your text in your code like this :
 
 Thanks for your visit !
 
-** Nicolas PERE **
+**Nicolas PERE**
