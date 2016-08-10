@@ -9,7 +9,7 @@ That's the reason why i put it on github, hoping some helps...
 
 The good thing with icon emojis, is that we have a universal icons, vectorials, matching pretty well with all recent systems !
 
-The ```emojis.php``` file is not necessary in order to use the ```emoticons_helper.php``` file, it just contains ALL the emoticons, a sort of basket [HTML]&#x1F609
+The ```emojis.php``` file is not necessary in order to use the ```emoticons_helper.php``` file, it just contains ALL the emoticons, a sort of basket 🙂
 
 Installation
 ------------
