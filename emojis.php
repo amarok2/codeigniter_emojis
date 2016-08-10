@@ -1,6 +1,7 @@
 <?php
 $emoticons = array(
 // Emoticons
+// '(shortcut)' => 'xxxxx', // icon_sample comment
 
 '(icon)' => '1F601',	// 😁 grinning face with smiling eyes
 '(icon)' => '1F602',	// 😂 face with tears of joy
