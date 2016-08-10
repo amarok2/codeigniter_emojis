@@ -1,0 +1,6 @@
+{
+  "name": "CodeIgniter Emojis",
+  "tagline": "CodeIgniter, Emojis, Icons, Vector icons, CMS",
+  "body": "CodeIgniter Emojis\r\n==================\r\n\r\n> This project is working well, but need some help to add some shortcuts.\r\n\r\nMy own contribution to implement the universal unicode emojis in CodeIgniter !\r\nIt is almost very simple, but the big part is to find the classic shortcuts and associate it to the right emoji...\r\nThat's the reason why i put it on github, hoping some helps...\r\n\r\nThe good thing with icon emojis, is that we have a universal icons, vectorials, matching pretty well with all recent systems !\r\n\r\nThe ```emojis.php``` file is not necessary in order to use the ```emoticons_helper.php``` file, it just contains ALL the emoticons, a sort of basket 🙂\r\n\r\nInstallation\r\n------------\r\n\r\nYou just have to put the file ```emoticons_helper.php``` into the helper folder of your application project.\r\nLoad this helper as you wanted to, on your own controller, or in the ```autoload.php``` file.\r\n\r\nAfter that, you'll just have to parse your text in your code like this : \r\n\r\n```\r\n<?php echo parse_emoticons(\"Your text with great ;-) :-p :-D smileys !\"); ?>\r\n```\r\n\r\nThanks for your visit !\r\n\r\n**Nicolas PERE**\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
