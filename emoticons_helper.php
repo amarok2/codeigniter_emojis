@@ -126,12 +126,11 @@ if ( ! function_exists('parse_emoticons')) {
 	function parse_emoticons($str, $size = '16pt') {
 		$emoticons = _initialize();
 		$size = ($size) ? 'style="font-size:'.$size.'"' : '';
-		foreach ($emoticons as $key => $val)
-		  {
+		foreach ($emoticons as $key => $val) {
 			$str = str_replace($key, '<span '.$size.'>&#x'.$val.';</span>', $str);
-		  }
+			}
 		return $str;
-	}
+		}
 } // end of parse_emoticons
 
 
