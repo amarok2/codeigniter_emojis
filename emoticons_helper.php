@@ -7,6 +7,7 @@ Made by Nicolas PERE for the community.
 
 
 function _initialize() {
+	// '(shortcut)' => 'xxxxx',
 	$emoticons = array(
 		";-)" => '1F609',
 		"^^" => '1F60A',
