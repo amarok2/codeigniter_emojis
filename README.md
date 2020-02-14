@@ -1,6 +1,9 @@
 CodeIgniter Emojis
 ==================
 
+/!\ This projectis no longer maintain and soon be deleted.
+Now i'm using integrated emojis with utf8mb4 database encodings.
+
 > This project is working well, but need some help to add some shortcuts.
 
 My own contribution to implement the universal unicode emojis in CodeIgniter !
